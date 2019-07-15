@@ -1,0 +1,5 @@
+n,p=input().split()
+p=int(p)
+lists=list(map(str,input().split()))
+lists=(lists[-p:]+lists[:-p])
+print(" ".join(lists))
